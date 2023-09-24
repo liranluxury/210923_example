@@ -11,5 +11,3 @@ console.log(`How much can I charge for a job:
 ${chargeForJob}$ `);
 console.log(`Is there enough time :
 ${isEnoughTime < sumDays}`);
-
-console.log(Boolean("5") + 9);
