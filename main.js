@@ -72,3 +72,9 @@ const formula = Math.sqrt(
   (adressLat - positionLat) ** 2 + (adressLong - positionLong) ** 2
 );
 console.log(formula);
+// **********************************************
+const hasLicence = true;
+const age = 17;
+const isDrunk = false;
+const canDrive = hasLicence && age >= 18 && !isDrunk;
+console.log(`You can drive:${canDrive ? "Yes!" : "No!"}`);
